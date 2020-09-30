@@ -51,4 +51,4 @@ jobs:
           echo "$SECRET" > ./secretfile
           cat ./secretfile
         env:
-          SECRET: ${{ secrets.SECRET }} # url to ec2 instance
+          SECRET: ${{secrets.SECRET}} # url to ec2 instance
